@@ -4,6 +4,7 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms'
 
 import { AppComponent }      from './app.component';
 import { HomeComponent }     from './home.component';
+import { SplashscreenComponent }     from './splashscreen.component';
 import { NotFoundComponent } from './not-found.component';
 
 
@@ -33,6 +34,7 @@ import { PreventUnsavedChangesGuard } from './prevent-unsaved-changes.service'
   declarations: [ 
     AppComponent,
     HomeComponent,
+    SplashscreenComponent,
     NotFoundComponent
   ],
   exports:[

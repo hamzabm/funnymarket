@@ -13,6 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var app_component_1 = require('./app.component');
 var home_component_1 = require('./home.component');
+var splashscreen_component_1 = require('./splashscreen.component');
 var not_found_component_1 = require('./not-found.component');
 var users_module_1 = require('./users/users.module');
 var posts_module_1 = require('./posts/posts.module');
@@ -43,6 +44,7 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 home_component_1.HomeComponent,
+                splashscreen_component_1.SplashscreenComponent,
                 not_found_component_1.NotFoundComponent
             ],
             exports: [
